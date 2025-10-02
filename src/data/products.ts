@@ -86,7 +86,7 @@ export const getProductVideos = (productId: number): string[] | undefined => {
   }
   if (productId === 7) {
     return [
-      "/videos/Color Light Illustration Masterclass Drawing from Real Life Iva (16).mp4",
+      "/videos/Color Light Illustration Masterclass Drawing from Real Life Iva (13).mp4",
       "/videos/Color Light Illustration Masterclass Drawing from Real Life Iva (17).mp4"
     ];
   }
