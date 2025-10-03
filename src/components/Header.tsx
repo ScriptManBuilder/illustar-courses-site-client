@@ -200,7 +200,7 @@ const Header: React.FC = () => {
       </TopBar>
       
       <Nav>
-        <Logo to="/">Illustration Courses</Logo>
+        <Logo to="/">ILLUSTAR COURSE</Logo>
         
         <NavLinks isOpen={isMenuOpen}>
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>HOME</NavLink>

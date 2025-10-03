@@ -355,7 +355,7 @@ const Home: React.FC = () => {
         </HeroVideo>
         <Container>
           <HeroContent>
-            {/* <HeroTitle>{COMPANY_INFO.name.toUpperCase()}</HeroTitle> */}
+            <HeroTitle>ILLUSTRATOR COURSE</HeroTitle> 
             <HeroSubtitle>
               Master Digital Illustration with Expert-Led Video Courses - Transform Your Creative Career Today
             </HeroSubtitle>
@@ -441,7 +441,7 @@ const Home: React.FC = () => {
                 <GlobeIcon />
                 <FeatureTitle>Global Community</FeatureTitle>
                 <FeatureDescription>
-                  Join thousands of illustration enthusiasts worldwide with 24/7 support and community access.
+                  Join hundreds of illustration enthusiasts worldwide with 24/7 support and community access.
                 </FeatureDescription>
               </FeatureCard>
             </ScrollReveal>
