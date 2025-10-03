@@ -664,7 +664,7 @@ const Home: React.FC = () => {
             <InfoSubsection>
               <InfoSubtitle>24/7 Community Access</InfoSubtitle>
               <InfoText>
-                Connect with <InfoHighlight>thousands of illustration learners worldwide </InfoHighlight> 
+                Connect with <InfoHighlight>hundreds of illustration learners worldwide </InfoHighlight> 
                 through our exclusive community platform. Share projects, get feedback, 
                 and collaborate on illustration projects.
               </InfoText>
