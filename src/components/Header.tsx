@@ -176,7 +176,7 @@ const Header: React.FC = () => {
       <TopBar>
         <TopBarContent>
           <WarningText>
-            {COMPANY_INFO.name} - Professional Illustration Education
+             Professional Illustration Education
           </WarningText>
           <ContactInfo>
             <ContactItem>
@@ -200,7 +200,7 @@ const Header: React.FC = () => {
       </TopBar>
       
       <Nav>
-        <Logo to="/">{COMPANY_INFO.name}</Logo>
+        <Logo to="/">Illustration Courses</Logo>
         
         <NavLinks isOpen={isMenuOpen}>
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>HOME</NavLink>

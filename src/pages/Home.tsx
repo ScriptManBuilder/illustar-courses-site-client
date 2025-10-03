@@ -89,7 +89,7 @@ const Home: React.FC = () => {
   // Данные для слайдов карусели
   const carouselSlides = [
     {
-      title: "Why Choose Illustration Learning Academy?",
+      title: "Why Choose Illustration Academy?",
       subtitle: "Discover the excellence that makes our illustration education exceptional"
     },
     {
@@ -355,7 +355,7 @@ const Home: React.FC = () => {
         </HeroVideo>
         <Container>
           <HeroContent>
-            <HeroTitle>{COMPANY_INFO.name.toUpperCase()}</HeroTitle>
+            {/* <HeroTitle>{COMPANY_INFO.name.toUpperCase()}</HeroTitle> */}
             <HeroSubtitle>
               Master Digital Illustration with Expert-Led Video Courses - Transform Your Creative Career Today
             </HeroSubtitle>

@@ -2260,22 +2260,22 @@ const About: React.FC = () => {
             </CompanyName>
             
             <MissionText ref={setElementRef(1)}>
-              {splitTextToWords('To empower learners worldwide with cutting-edge AI education,')}
+              {splitTextToWords('To empower artists worldwide with professional illustration education,')}
             </MissionText>
             
             <MissionText ref={setElementRef(2)}>
-              {splitTextToWords('providing comprehensive courses that transform complex concepts into practical skills.')}
+              {splitTextToWords('providing comprehensive courses that transform artistic concepts into practical creative skills.')}
             </MissionText>
             
             <DescriptionText ref={setElementRef(3)} className="description-text">
-              {splitTextToChars('Our expertly crafted AI courses cover machine learning, deep learning, natural language processing, computer vision, and more. Each course is designed with hands-on projects, real-world applications, and industry best practices to help you master artificial intelligence and advance your career in this rapidly evolving field.')}
+              {splitTextToChars('Our expertly crafted illustration courses cover color theory, lighting techniques, digital painting, character design, and concept art. Each course is designed with hands-on projects, real-world applications, and professional techniques to help you master digital illustration and advance your career in the creative industry.')}
             </DescriptionText>
             
             <ProductsCallToAction ref={setElementRef(4)}>
               <ProductsCard to="/products">
-                <ProductsCardTitle>Explore Our AI Courses</ProductsCardTitle>
+                <ProductsCardTitle>Explore Our Illustration Courses</ProductsCardTitle>
                 <ProductsCardDescription>
-                  Discover comprehensive AI learning programs designed for all skill levels
+                  Discover comprehensive illustration learning programs designed for all skill levels
                 </ProductsCardDescription>
                 <ProductsCardButton>
                   View Courses
@@ -2430,7 +2430,7 @@ const About: React.FC = () => {
         <Container>
           <LeadershipContainer>
             <SectionTitle ref={setElementRef(5)}>
-              {splitTextToLetters('EDUCATION TEAM')}
+              {splitTextToLetters('Education ')}
             </SectionTitle>
             
             <LeadershipGrid>
@@ -2442,7 +2442,7 @@ const About: React.FC = () => {
                   </LeaderOverlay>
                 </LeaderImage>
                 <LeaderInfo>
-                  <LeaderName>Education Team</LeaderName>
+                  <LeaderName>Shannon W.</LeaderName>
                   <LeaderTitle>Illustration Experts & Educators</LeaderTitle>
                   <LeaderDescription>
                     Passionate about digital illustration and dedicated to making illustration education accessible to everyone. 
@@ -2542,12 +2542,12 @@ const About: React.FC = () => {
             <ModalImage>
               <img src="/images/pic_post_6.jpg" alt="Education Team" />
             </ModalImage>
-            <ModalTitle>The Williams Collection Inc</ModalTitle>
+          
             <ModalSubtitle>Illustration Education Experts</ModalSubtitle>
           </ModalHeader>
 
           <ModalDescription>
-            Welcome to The Williams Collection Inc! Our team of professional illustration experts is dedicated to 
+            Our team of professional illustration experts is dedicated to 
             transforming creative careers through comprehensive digital illustration education.
             <br /><br />
             We believe illustration should be accessible to everyone, from complete beginners to advanced artists looking to 
